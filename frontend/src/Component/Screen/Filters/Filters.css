@@ -1,0 +1,43 @@
+/* FilterComponent.css */
+
+.filter-container {
+    /* border: 1px solid #ddd; */
+    padding: 15px;
+    margin: 15px;
+    width: 380px;
+    position: fixed;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filter-section {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

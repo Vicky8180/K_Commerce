@@ -1,0 +1,39 @@
+/* Assuming your "carousal_main" div has a class or ID, let's use '.carousal_main' for this example */
+
+.carousal_main {
+    position: relative;
+    width: 100%; /* Make it take the full width of the parent container */
+    max-width: 1500px; /* Set a maximum width to control the content size */
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden; /* Hide any content that exceeds the container */
+    max-height: 450px;
+  }
+  
+  .carousal_img_div {
+    position: relative;
+    width: 100%; /* Make it take the full width of the parent container */
+    padding-bottom: 60%; /* Set a padding-bottom based on the aspect ratio you desire */
+    overflow: hidden; /* Hide any content that exceeds the container */
+  }
+  
+  .carousal_img {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .carousal_img {
+        /* position: absolute; */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        object-fit: cover; /* Maintain the aspect ratio and cover the container */
+      }
+
+  }

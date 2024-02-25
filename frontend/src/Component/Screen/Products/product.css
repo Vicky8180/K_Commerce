@@ -1,0 +1,299 @@
+.product-1{
+    /* background-color: rgb(116, 133, 149); */
+    margin-top: 1.5%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    height: auto;
+    margin-bottom: 5%;
+
+
+}
+
+.poster-size-temp{
+  /* width: 70%;
+  margin-left: 15%; */
+  margin-top: 40px;
+}
+
+.product-1h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #088178;
+}
+
+.product-line{
+    margin-top: 2px;
+    height: 6px;
+    width: 42%;
+    margin-left: 28%;
+    background-color: #fa9d00;
+    /* margin-left: 10%; */
+    margin-right: 10%;
+    margin-bottom: 40px;
+
+}
+
+.pro-right-price-value{
+  font-size:larger;
+  margin-top: -4px;
+}
+
+
+
+   .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .product-contain {
+    flex: 1;
+    max-width: 320px;
+    min-width: 280px;
+    height: 350px;
+    margin: 20px;
+    border: 1px solid #f0f0f0;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    /* padding: 10px; */
+    text-align: center;
+  }
+  
+  .product-image  {
+    max-width: 100%;
+    height: 200px;
+    /* height: auto; */
+  }
+
+  .product-image img {
+    max-width: 100%;
+    height: 200px;
+    /* height: auto; */
+    border: 1px solid #cce7d0;
+    /* border-radius: 20px; */
+  }
+  
+  .product-name {
+    font-weight: bold;
+    margin: 10px 0;
+    /* color: #088178; */
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .product-dis p {
+    /* margin-top: 10px;
+    margin: 0;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+
+    /* margin-top: 10px; */
+    overflow: hidden; 
+
+  word-wrap: break-word;
+  height: 70px;
+padding-right: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+  .product-heading-for-carausal{
+
+    /* height: 700px; */
+    /* background-color: #eefffe; */
+    background-color: #f7fafd;
+     /* background-color: #eff9ff; */
+    padding-bottom: 70px;
+  }
+  .product-heading-for-carausal h1{
+    padding-top: 70px;
+    width: 80%;
+    padding-bottom: 30px;
+    margin-left: 15%;
+  }
+
+
+
+/* 
+productview
+*/
+
+.a-pro-1{
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  /* display: grid; */
+  /* place-items: center; */
+  padding-top: 50px;
+}
+
+
+.a-pro-right-name{
+height: 40px;
+
+}
+.a-pro-right-rating{
+  height: 60px;
+  
+  }
+  .a-pro-right-price-value{
+    height: 10px;
+    
+    }
+    .a-pro-right-price{
+      height: 40px;
+      
+      }
+
+
+    .a-pro-left-img{
+      width: 100%;
+    }  
+.a-pro-left-img-1{
+  width: 100%;
+  height: 500px;
+}
+
+.a-pro-right{
+  width: 40%;
+  padding-left: 40px;
+}
+
+.a-pro-right-buttons{
+  display: flex;
+  justify-content:space-around;
+  padding-top: 30px;
+}
+.a-pro-right-call-now1{
+  width: 40%;
+  background-color: #fa9d00;
+}
+.a-pro-right-call-now{
+  width: 40%;
+}
+/* till here  */
+
+
+
+
+
+
+
+/* product page css
+
+*/
+
+
+/* Your main container */
+.product_filter_main {
+    display: flex;
+  }
+  
+
+  .product_filter_left {
+    flex: 3;
+    background-color: #ffffff; 
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+  
+
+   
+  }
+  
+
+  .product_filter_right {
+    flex: 7;
+    background-color: #ffffff; 
+    padding: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .product_filter_main {
+      flex-direction: column; 
+    }
+  
+    .product_filter_left, .product_filter_right {
+      flex: 1; 
+    }
+
+
+    .product_filter_left {
+        flex: 3 1;
+        background-color: #ffffff;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .a-pro-1{
+        display: inline;
+        width: 100%;
+        background-color: #ffffff;
+        justify-content: center;
+        /* display: grid; */
+        /* place-items: center; */
+        padding-top: 50px;
+      }
+      .a-pro-right{
+        width: 80%;
+        padding: 40px;
+      }
+  }
+  
+
+
+/* 
+
+tii;;;;lll hehre
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 900px) {
+    .product-contain {
+      flex: 0 0 50% ;
+      max-width: 45% ;
+  
+    }
+
+  }
+  
+  @media (max-width: 850px) {
+    .product-contain {
+      flex: 0 0 100% ;
+      max-width: 96% 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-contain {
+      flex: 0 0 100%; 
+
+      min-width: 93%;
+    
+    }
+    
+  }
+  
