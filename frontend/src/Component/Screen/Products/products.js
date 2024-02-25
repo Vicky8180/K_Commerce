@@ -13,24 +13,23 @@ export default function Product() {
   const [data2, setData2] = useState([]);
   const baseURL = "http://localhost:5000/";
   const data3=useSelector((state)=>state.productArray)
-// console.log(data3)
+
   useEffect(()=>{
     
     const fetchData=()=>{
         try {
             const response2= axios.get("https://dummyjson.com/products?skip=1&limit=100").then(response => {
-                // Access the data from the response
+                
                 const data = response.data;
           
-                // Now you can work with the data
+             
                 console.log(data);
           
-                // Return the data if needed
+   
                    setData([...data.products])
                 return data.products;
               })
-            //   setData2([...response2])
-            // console.log(data2)
+          
       } catch (error) {
           console.log("error")
       }

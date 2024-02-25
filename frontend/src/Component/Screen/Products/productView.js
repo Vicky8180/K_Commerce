@@ -41,7 +41,7 @@ const addToCartFun=async()=>{
     try {
       console.log("33")
       console.log(userData.data.email)
-      const data1=await axios.put(`http://localhost:5000/api/updateProducts/${userData.data.email}`,{
+      const data1=await axios.put(`${process.env.REACT_APP_BASE_URL_PORT}/api/updateProducts/${userData.data.email}`,{
         "products":data
       })
       console.log(data1)

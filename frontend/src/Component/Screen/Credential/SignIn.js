@@ -23,7 +23,7 @@ const SignUpForm = () => {
 
   const LoginFun = async () => {
     try {
-      const data = await axios.post("http://localhost:5000/api/login", {
+      const data = await axios.post(`${process.env.REACT_APP_BASE_URL_PORT}/api/login`, {
         email: email,
         password: password,
       });
